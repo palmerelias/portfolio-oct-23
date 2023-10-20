@@ -1,0 +1,51 @@
+body {
+    background-color: #0C4A60;
+    margin: 0px;
+}
+
+.name {
+    margin-top: 45px;
+    margin-left: 81px;
+    color: #ABDFF1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2.5px;
+}
+
+.ocupation {
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ABDFF1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 71px;
+    letter-spacing: 4px;
+}
+
+.ocupation-message {
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #E1DDDB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.blue {
+    color: #0C4A60;    
+}
+
+.orange {
+    color: #EF6C33;    
+   }
+
+.light-blue {
+    color: #ABDFF1;    
+}
+
+.light-grey {
+    color: #E1DDDB;    
+}
+
