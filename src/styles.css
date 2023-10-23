@@ -33,6 +33,17 @@ body {
     letter-spacing: 4px;
 }
 
+.ocupation-message-orange {
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #EF6C33;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
 .blue {
     color: #0C4A60;    
 }
