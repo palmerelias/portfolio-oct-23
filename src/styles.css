@@ -3,6 +3,11 @@ body {
     margin: 0px;
 }
 
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .name {
     margin-top: 45px;
     margin-left: 81px;
@@ -10,6 +15,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
     letter-spacing: 2.5px;
+}
+
+.dark-mode {
+    color: #ABDFF1;
+    margin-top: 45px;
+    margin-right: 81px;
+    inherits: large;
 }
 
 .ocupation {
@@ -28,6 +40,17 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
     color: #E1DDDB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.ocupation-message-orange {
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #EF6C33;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     letter-spacing: 4px;
