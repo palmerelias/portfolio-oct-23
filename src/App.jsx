@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import "./styles.css"
-
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className='bar'>
         <h3 className='name'>Elias</h3>
-        <img />
+        <DarkModeOutlinedIcon className='dark-mode' fontSize='large'/>
       </div>
       <div>
         <h1 className='ocupation'>Frontend</h1>
