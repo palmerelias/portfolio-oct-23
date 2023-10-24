@@ -1,58 +1,85 @@
 body {
     background-color: #0C4A60;
-    margin: 0px;
 }
 
-.bar {
+nav {
     display: flex;
     justify-content: space-between;
 }
 
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .name {
-    margin-top: 45px;
-    margin-left: 81px;
+    margin: 16px;
     color: #ABDFF1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 42px;
+    font-size: 17px;
     letter-spacing: 2.5px;
 }
 
 .dark-mode {
-    color: #ABDFF1;
-    margin-top: 45px;
-    margin-right: 81px;
+    color: #E1DDDB;
+    margin-top: 0px;
+    margin-right: 20px;
     inherits: large;
 }
 
+.resume {
+    background: linear-gradient(90deg, #ABDFF1 0%, #E1DDDB 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: #0C4A60;
+    border: none;
+    font-size: 13px;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 16px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .ocupation {
-    margin-left: 130px;
+    display: flex;
+    justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #ABDFF1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 71px;
     letter-spacing: 4px;
 }
 
 .ocupation-message {
-    width: 500px;
-    margin-left: 130px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 0px;
     color: #E1DDDB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+
     letter-spacing: 4px;
 }
 
 .ocupation-message-orange {
+    display: flex;
+    justify-content: center;
     width: 500px;
-    margin-left: 130px;
+    margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
     color: #EF6C33;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
     letter-spacing: 4px;
 }
 
