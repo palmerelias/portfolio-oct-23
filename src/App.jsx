@@ -18,13 +18,14 @@ function App() {
       </nav>
       <div className='info'>
         <h2 className='name'>Elias Palmer</h2>
+        <hr className='name-underline'></hr>
         <h3 className='ocupation'>Frontend Dev Student</h3>
         <p className='ocupation-message'>I like to craft solid and scalable frontend projects with great user experiences.</p>
         <img className="profile-img" src={Profile} />
       </div>
       <div className='links'>
         <a href="https://github.com/palmerelias"><GitHubIcon className='color-lens' fontSize='large'/></a>
-        <a href="#"><LinkedInIcon className='color-lens' fontSize='large' /></a>
+        <a href="https://www.linkedin.com/in/elias-palmer-944357297/"><LinkedInIcon className='color-lens' fontSize='large' /></a>
       </div>
     </>
   )
