@@ -59,11 +59,17 @@ nav {
     letter-spacing: 4px;
     display: flex;
     justify-content: center;
+    text-decoration: none ;
+    margin-bottom: 0px;
 }
 
+.name-underline {
+    margin: 0px;
+    width: 230px;
+}
 
 .ocupation {
-    margin-top: 0px;
+    margin-top: 15px;
     color: #ABDFF1;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
