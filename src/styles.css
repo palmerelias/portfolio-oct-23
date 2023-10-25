@@ -21,8 +21,8 @@ nav {
     letter-spacing: 2.5px;
 }
 
-.dark-mode {
-    color: #E1DDDB;
+.color-lens {
+    color: #FFFFFF;
     margin-top: 0px;
     margin-right: 20px;
     inherits: large;
@@ -45,6 +45,7 @@ nav {
 }
 
 .info {
+    margin-top: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,6 +63,7 @@ nav {
 
 
 .ocupation {
+    margin-top: 0px;
     color: #ABDFF1;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
@@ -80,14 +82,19 @@ nav {
 .profile-img {
     width: 250px;
     border-radius: 100%;
+    margin: 15px;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    align-items: center;
     color: #FFFFFF;
+    padding-top: 30px;
+    margin-left: 20px;
 }
+
+
 
 .blue {
     color: #0C4A60;    

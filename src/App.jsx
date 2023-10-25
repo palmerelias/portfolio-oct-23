@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import React from 'react'
 import "./styles.css"
 import Profile from "./profile.jpg"
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
+import ColorLensIcon from '@mui/icons-material/ColorLens';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <nav>
             <h1 className='name-logo'>Elias</h1>
             <div className="right-nav">
-                <DarkModeOutlinedIcon className='dark-mode' fontSize='large'/>
+                <ColorLensIcon className='color-lens' fontSize='large'/>
                 <a className="resume" href="#" >Resume</a>
             </div>
       </nav>
@@ -22,7 +23,8 @@ function App() {
         <img className="profile-img" src={Profile} />
       </div>
       <div className='links'>
-        <a href="https://github.com/palmerelias"><GitHubIcon/></a>
+        <a href="https://github.com/palmerelias"><GitHubIcon className='color-lens' fontSize='large'/></a>
+        <a href="#"><LinkedInIcon className='color-lens' fontSize='large' /></a>
       </div>
     </>
   )
