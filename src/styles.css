@@ -1,5 +1,13 @@
 body {
+    margin: 0px;
+}
+
+.body {
     background-color: #0C4A60;
+}
+
+.body-dark {
+    background-color: #283b42;
 }
 
 nav {
@@ -21,6 +29,14 @@ nav {
     letter-spacing: 2.5px;
 }
 
+.name-logo-dark {
+    margin: 16px;
+    color: #85b8cb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    letter-spacing: 2.5px;
+}
+
 .color-lens {
     color: #FFFFFF;
     margin-top: 0px;
@@ -32,6 +48,22 @@ nav {
     background: linear-gradient(90deg, #ABDFF1 0%, #E1DDDB 100%);
     font-family: 'Montserrat', sans-serif;
     color: #0C4A60;
+    border: none;
+    font-size: 13px;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 16px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.resume-dark {
+    background: linear-gradient(90deg, #85b8cb 0%, #E1DDDB 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: #283b42;
     border: none;
     font-size: 13px;
     border-radius: 3px;
@@ -75,8 +107,25 @@ nav {
     letter-spacing: 3px;
 }
 
+.ocupation-dark {
+    margin-top: 15px;
+    color: #85b8cb;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
 .ocupation-message {
     color: #E1DDDB;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 500px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocupation-message-dark {
+    color: #d1dddb;
     font-family: 'Montserrat', sans-serif;
     max-width: 500px;
     letter-spacing: 1px;
@@ -98,6 +147,7 @@ nav {
     color: #FFFFFF;
     padding-top: 30px;
     margin-left: 20px;
+    padding-bottom: 100%;
 }
 
 
