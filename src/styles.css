@@ -4,6 +4,9 @@ body {
 
 .body {
     background-color: #0C4A60;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .body-dark {
@@ -147,7 +150,6 @@ nav {
     color: #FFFFFF;
     padding-top: 30px;
     margin-left: 20px;
-    padding-bottom: 100%;
 }
 
 
